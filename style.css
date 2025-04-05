@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffafc;
+  color: #4b4b4b;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  background: linear-gradient(to right, #fddde6, #f0eafc);
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  color: #8e44ad;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #ffb6c1;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #fce4ec;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #7c4dff;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+.flower-card {
+  border: 1px solid #ffdce0;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #fff0f5;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+}
+
+.flower-card img {
+  width: 100%;
+  border-radius: 8px;
+}
